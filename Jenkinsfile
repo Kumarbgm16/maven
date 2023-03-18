@@ -1,9 +1,6 @@
 pipeline {
    
- agent {
-        label "javaslave"
-    }
-       
+ agent any
     stages {
         stage('SCM') {
             steps {
